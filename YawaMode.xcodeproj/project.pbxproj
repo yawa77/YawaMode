@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550B81A7202AD81E008B3E41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B81A6202AD81E008B3E41 /* AppDelegate.swift */; };
+		550B81A9202AD81E008B3E41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B81A8202AD81E008B3E41 /* ViewController.swift */; };
+		550B81AC202AD81F008B3E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550B81AA202AD81F008B3E41 /* Main.storyboard */; };
+		550B81AE202AD81F008B3E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550B81AD202AD81F008B3E41 /* Assets.xcassets */; };
+		550B81B1202AD81F008B3E41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550B81AF202AD81F008B3E41 /* LaunchScreen.storyboard */; };
+		550B81BC202AD81F008B3E41 /* YawaModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B81BB202AD81F008B3E41 /* YawaModeTests.swift */; };
+		550B81C7202AD81F008B3E41 /* YawaModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B81C6202AD81F008B3E41 /* YawaModeUITests.swift */; };
+		550B81D5202AD92B008B3E41 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 550B81D4202AD92B008B3E41 /* hustle-on.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550B81B8202AD81F008B3E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550B819B202AD81E008B3E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550B81A2202AD81E008B3E41;
+			remoteInfo = YawaMode;
+		};
+		550B81C3202AD81F008B3E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550B819B202AD81E008B3E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550B81A2202AD81E008B3E41;
+			remoteInfo = YawaMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550B81A3202AD81E008B3E41 /* YawaMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YawaMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B81A6202AD81E008B3E41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		550B81A8202AD81E008B3E41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		550B81AB202AD81F008B3E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550B81AD202AD81F008B3E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550B81B0202AD81F008B3E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		550B81B2202AD81F008B3E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550B81B7202AD81F008B3E41 /* YawaModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YawaModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B81BB202AD81F008B3E41 /* YawaModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YawaModeTests.swift; sourceTree = "<group>"; };
+		550B81BD202AD81F008B3E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550B81C2202AD81F008B3E41 /* YawaModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YawaModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B81C6202AD81F008B3E41 /* YawaModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YawaModeUITests.swift; sourceTree = "<group>"; };
+		550B81C8202AD81F008B3E41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550B81D4202AD92B008B3E41 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550B81A0202AD81E008B3E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81B4202AD81F008B3E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81BF202AD81F008B3E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550B819A202AD81E008B3E41 = {
+			isa = PBXGroup;
+			children = (
+				550B81A5202AD81E008B3E41 /* YawaMode */,
+				550B81BA202AD81F008B3E41 /* YawaModeTests */,
+				550B81C5202AD81F008B3E41 /* YawaModeUITests */,
+				550B81A4202AD81E008B3E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550B81A4202AD81E008B3E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550B81A3202AD81E008B3E41 /* YawaMode.app */,
+				550B81B7202AD81F008B3E41 /* YawaModeTests.xctest */,
+				550B81C2202AD81F008B3E41 /* YawaModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550B81A5202AD81E008B3E41 /* YawaMode */ = {
+			isa = PBXGroup;
+			children = (
+				550B81D4202AD92B008B3E41 /* hustle-on.wav */,
+				550B81A6202AD81E008B3E41 /* AppDelegate.swift */,
+				550B81A8202AD81E008B3E41 /* ViewController.swift */,
+				550B81AA202AD81F008B3E41 /* Main.storyboard */,
+				550B81AD202AD81F008B3E41 /* Assets.xcassets */,
+				550B81AF202AD81F008B3E41 /* LaunchScreen.storyboard */,
+				550B81B2202AD81F008B3E41 /* Info.plist */,
+			);
+			path = YawaMode;
+			sourceTree = "<group>";
+		};
+		550B81BA202AD81F008B3E41 /* YawaModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				550B81BB202AD81F008B3E41 /* YawaModeTests.swift */,
+				550B81BD202AD81F008B3E41 /* Info.plist */,
+			);
+			path = YawaModeTests;
+			sourceTree = "<group>";
+		};
+		550B81C5202AD81F008B3E41 /* YawaModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550B81C6202AD81F008B3E41 /* YawaModeUITests.swift */,
+				550B81C8202AD81F008B3E41 /* Info.plist */,
+			);
+			path = YawaModeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550B81A2202AD81E008B3E41 /* YawaMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B81CB202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaMode" */;
+			buildPhases = (
+				550B819F202AD81E008B3E41 /* Sources */,
+				550B81A0202AD81E008B3E41 /* Frameworks */,
+				550B81A1202AD81E008B3E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YawaMode;
+			productName = YawaMode;
+			productReference = 550B81A3202AD81E008B3E41 /* YawaMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550B81B6202AD81F008B3E41 /* YawaModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B81CE202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaModeTests" */;
+			buildPhases = (
+				550B81B3202AD81F008B3E41 /* Sources */,
+				550B81B4202AD81F008B3E41 /* Frameworks */,
+				550B81B5202AD81F008B3E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550B81B9202AD81F008B3E41 /* PBXTargetDependency */,
+			);
+			name = YawaModeTests;
+			productName = YawaModeTests;
+			productReference = 550B81B7202AD81F008B3E41 /* YawaModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550B81C1202AD81F008B3E41 /* YawaModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B81D1202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaModeUITests" */;
+			buildPhases = (
+				550B81BE202AD81F008B3E41 /* Sources */,
+				550B81BF202AD81F008B3E41 /* Frameworks */,
+				550B81C0202AD81F008B3E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550B81C4202AD81F008B3E41 /* PBXTargetDependency */,
+			);
+			name = YawaModeUITests;
+			productName = YawaModeUITests;
+			productReference = 550B81C2202AD81F008B3E41 /* YawaModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550B819B202AD81E008B3E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Pollard";
+				TargetAttributes = {
+					550B81A2202AD81E008B3E41 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					550B81B6202AD81F008B3E41 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 550B81A2202AD81E008B3E41;
+					};
+					550B81C1202AD81F008B3E41 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 550B81A2202AD81E008B3E41;
+					};
+				};
+			};
+			buildConfigurationList = 550B819E202AD81E008B3E41 /* Build configuration list for PBXProject "YawaMode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550B819A202AD81E008B3E41;
+			productRefGroup = 550B81A4202AD81E008B3E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550B81A2202AD81E008B3E41 /* YawaMode */,
+				550B81B6202AD81F008B3E41 /* YawaModeTests */,
+				550B81C1202AD81F008B3E41 /* YawaModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550B81A1202AD81E008B3E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B81D5202AD92B008B3E41 /* hustle-on.wav in Resources */,
+				550B81B1202AD81F008B3E41 /* LaunchScreen.storyboard in Resources */,
+				550B81AE202AD81F008B3E41 /* Assets.xcassets in Resources */,
+				550B81AC202AD81F008B3E41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81B5202AD81F008B3E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81C0202AD81F008B3E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550B819F202AD81E008B3E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B81A9202AD81E008B3E41 /* ViewController.swift in Sources */,
+				550B81A7202AD81E008B3E41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81B3202AD81F008B3E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B81BC202AD81F008B3E41 /* YawaModeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B81BE202AD81F008B3E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B81C7202AD81F008B3E41 /* YawaModeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550B81B9202AD81F008B3E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550B81A2202AD81E008B3E41 /* YawaMode */;
+			targetProxy = 550B81B8202AD81F008B3E41 /* PBXContainerItemProxy */;
+		};
+		550B81C4202AD81F008B3E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550B81A2202AD81E008B3E41 /* YawaMode */;
+			targetProxy = 550B81C3202AD81F008B3E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550B81AA202AD81F008B3E41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550B81AB202AD81F008B3E41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550B81AF202AD81F008B3E41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550B81B0202AD81F008B3E41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550B81C9202AD81F008B3E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		550B81CA202AD81F008B3E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550B81CC202AD81F008B3E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HBBQRERVJ;
+				INFOPLIST_FILE = YawaMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		550B81CD202AD81F008B3E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HBBQRERVJ;
+				INFOPLIST_FILE = YawaMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		550B81CF202AD81F008B3E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YawaModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YawaMode.app/YawaMode";
+			};
+			name = Debug;
+		};
+		550B81D0202AD81F008B3E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YawaModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YawaMode.app/YawaMode";
+			};
+			name = Release;
+		};
+		550B81D2202AD81F008B3E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YawaModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YawaMode;
+			};
+			name = Debug;
+		};
+		550B81D3202AD81F008B3E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YawaModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidpollard.YawaModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YawaMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550B819E202AD81E008B3E41 /* Build configuration list for PBXProject "YawaMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B81C9202AD81F008B3E41 /* Debug */,
+				550B81CA202AD81F008B3E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550B81CB202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B81CC202AD81F008B3E41 /* Debug */,
+				550B81CD202AD81F008B3E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550B81CE202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B81CF202AD81F008B3E41 /* Debug */,
+				550B81D0202AD81F008B3E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550B81D1202AD81F008B3E41 /* Build configuration list for PBXNativeTarget "YawaModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B81D2202AD81F008B3E41 /* Debug */,
+				550B81D3202AD81F008B3E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550B819B202AD81E008B3E41 /* Project object */;
+}
